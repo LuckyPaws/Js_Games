@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Bulls and Cows</title>
+</head>
+<body>
+    <h1>Bulls and Cows</h1>
+    <p id="gameStats">R: 1 | V: 0 | D: 0</p>
+    <input type="number" id="guessInput" min="1111" max="9999" placeholder="ex: 4562" onkeydown="if (event.keyCode === 13) document.getElementById('submitButton').click()">
+    <input type="submit" id="submitButton" value="Guess" onclick="checkGuess()">
+    <input type="submit" id="rulesButton" value="Règles" onclick="printRules()">
+    <input type="submit" id="clearButton" value="Clear" onclick="clearLogs()">
+    <h2>Logs</h2>
+    <!--textarea représente un contrôle qui permet d'éditer du texte sur plusieurs lignes.-->
+    <textarea name="logs" id="logsArea" cols="60" rows="17" readonly="true"></textarea>
+
+    <script src="main.js"></script>
+</body>
+</html>

@@ -1,0 +1,21 @@
+html, body {
+    height: 100%;
+    font-size: 14px;
+    background-color: rgb(31, 31, 31);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow',Arial, sans-serif;
+}
+
+* {
+    text-align: center;
+    margin: 0;
+}
+
+h1, h2, p {
+    margin: 0.5rem;
+    color: white;
+}
+#logsArea {
+    text-align: left;
+    font-size: 0.9rem;
+    resize: none;
+}
