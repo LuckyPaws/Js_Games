@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    background-color: rgb(38, 38, 38);
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+}
+
+h1 {
+    padding: 2.5rem 1rem;
+    font-size: 3.5rem;
+}
+
+h2 {
+    padding: 1rem 1rem;
+    font-size: 2.5rem;
+}
+
+p {
+    font-size: 1.5rem;
+}
+img {
+    width: 100px;
+}
+
+.choices > div {
+    display: inline-block;
+    margin: 0 1rem;
+    transition: all 0.4s ease-in-out;
+}
+.choices > div:hover {
+    transform: scale(110%);
+    cursor: pointer;
+}
